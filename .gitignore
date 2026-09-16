@@ -1,0 +1,17 @@
+# Ignore raw dataset folders and raw data files
+sisfall_dataset/
+physionet_data/
+*.csv
+*.txt
+*.zip
+
+# Ignore python caches and virtual environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# Keep essential trained ML model binaries
+!xgb_crisis_classifier.pkl
+!iso_forest_biometrics.pkl
