@@ -3,6 +3,7 @@ sisfall_dataset/
 physionet_data/
 *.csv
 *.txt
+*.key
 *.zip
 
 # Ignore python caches and virtual environments
